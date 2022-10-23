@@ -20,6 +20,10 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    width: 400px;
+    height: 260px;
+    object-fit: cover;
+    justify-content: center;
 }
 
 .portfolio__item h3 {

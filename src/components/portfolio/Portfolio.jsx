@@ -1,49 +1,42 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import Fitness from '../../assets/fitness.jpg'
+import SE from '../../assets/SE.jpg'
+import Python from '../../assets/python.jpg'
+import Charity from '../../assets/charity.jpg'
+import More from '../../assets/moreSoon.png'
 
 const data = [
     {
         id:1,
-        image: IMG1,
-        title: "blah1",
-        github: "https://github.com"
+        image: Fitness,
+        title: "Fitness App",
+        github: "https://github.com/hamjun/fitnessApp"
     },
     {
         id:2,
-        image: IMG2,
-        title: "blah1",
-        github: "https://github.com"
+        image: SE,
+        title: "Search Engine",
+        github: "https://github.com/joycele/Web-Search-Engine"
     },
     {
         id:3,
-        image: IMG3,
-        title: "blah1",
-        github: "https://github.com"
+        image: Python,
+        title: "Leetcode Practice",
+        github: "https://github.com/hamjun/PythonPractice"
     },
     {
         id:4,
-        image: IMG4,
-        title: "blah1",
-        github: "https://github.com"
+        image: Charity,
+        title: "Charity Betting App",
+        github: "https://github.com/Jwl027/CharityBet"
     },
     {
         id:5,
-        image: IMG5,
-        title: "blah1",
+        image: More,
+        title: "More to Come",
         github: "https://github.com"
     },
-    {
-        id:6,
-        image: IMG6,
-        title: "blah1",
-        github: "https://github.com"
-    }
 ]
 
 const Portfolio = () => {
