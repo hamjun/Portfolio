@@ -4,13 +4,14 @@ import Fitness from '../../assets/fitness.jpg'
 import SE from '../../assets/SE.jpg'
 import Python from '../../assets/python.jpg'
 import Charity from '../../assets/charity.jpg'
+import Me from '../../assets/website.jpg'
 import More from '../../assets/moreSoon.png'
 
 const data = [
     {
         id:1,
         image: Fitness,
-        title: "Fitness App",
+        title: "HealthClock",
         github: "https://github.com/hamjun/fitnessApp"
     },
     {
@@ -21,22 +22,28 @@ const data = [
     },
     {
         id:3,
-        image: Python,
-        title: "Leetcode Practice",
-        github: "https://github.com/hamjun/PythonPractice"
-    },
-    {
-        id:4,
         image: Charity,
         title: "Charity Betting App",
         github: "https://github.com/Jwl027/CharityBet"
     },
     {
+        id:4,
+        image: Python,
+        title: "Leetcode Practice",
+        github: "https://github.com/hamjun/PythonPractice"
+    },
+    {
         id:5,
+        image: Me,
+        title: "This Website",
+        github: "https://github.com/hamjun/Portfolio"
+    },
+    {
+        id:6,
         image: More,
         title: "More to Come",
         github: "https://github.com"
-    },
+    }
 ]
 
 const Portfolio = () => {

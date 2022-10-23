@@ -38,15 +38,14 @@ header {
 
 /* ========= ME ============= */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
     width: 26rem;
     height: 26rem;
     position: absolute;
     left: calc(50% - 13rem);
     margin-top: 4rem;
-    border-radius: 2rem 2rem 0 0;
+    border: 0.4rem solid var(--color-primary-variant);
+    border-radius: 15px;
     overflow: hidden;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ========= SCROLL DOWN ============= */

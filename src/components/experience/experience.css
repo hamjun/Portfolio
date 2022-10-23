@@ -1,67 +1,70 @@
-.experience__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+.container.experiences__container {
+    width: 40%;
+    padding-bottom: 3rem;
 }
 
-.experience__container > div {
+.company__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 5.6rem;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 0.4rem solid var(--color-primary-variant);
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
+
+.experience {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-}
-
-.experience__container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
-
-.experience__container > div h3 {
     text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
 }
 
-.experience__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+.work {
+    color: var(--color-light);
+    font-weight: 400;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
 }
 
 
+li:empty {
+    display: none;
 }
 
-.experience__details-icon {
-    margin-top: 6px;
-    color: var(--color-primary);
+li::before {
+    content: "\2022";  
+    color: var(--color-primary); 
+    font-weight: 400; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
 }
 
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
 /* =================== MEDIA QUERIERS ( MEDIUM DEVICES )======================= */
 @media screen and (max-width: 1024px) {
-    .experience__container {
-        grid-template-columns: 1fr;
-    }
-
-    .experience__container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .experience__content {
-        padding: 1rem;
+    .container.experiences__container {
+        width: 60%;
     }
 }
 
 /* =================== MEDIA QUERIERS ( SMALL DEVICES )======================= */
 @media screen and (max-width: 1024px) {
-    .experience__container {
-        gap: 1rem;
+    .container.experiences__container {
+        width: var(--container-width-sm);
     }
 
-    .experience__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
+    .work {
+        width: var(--container-width-sm);
     }
 }
