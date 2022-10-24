@@ -35,7 +35,7 @@ const data = [
     {
         id:5,
         image: Me,
-        title: "This Website",
+        title: "Portfolio",
         github: "https://github.com/hamjun/Portfolio"
     },
     {
