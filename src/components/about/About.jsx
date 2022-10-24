@@ -20,19 +20,21 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>  
+              <br />
+              <a href="/#experience">Experience</a> 
+              <br />
               <small>2 Years of Professional Experience</small>
             </article>
             <article className='about__card'>
               <AiFillFolderOpen className='about__icon'/>
-              <h5>Projects</h5>  
+              <br />
+              <a href="/#portfolio">Projects</a>
+              <br />
               <small>Many Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Necessitatibus cum adipisci ratione temporibus dolores laudantium nulla, 
-            explicabo cumque maxime esse, quaerat deserunt iure illum fuga vitae placeat autem dolorum sit!
+            Experienced software engineer looking for opportunities
           </p>
 
           <a href="/#contact" className='btn btn-primary'>Let's Talk</a>
